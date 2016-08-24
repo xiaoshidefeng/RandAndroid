@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cw.rands.Main3Activity_help"
+    android:id="@+id/help_layout"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用说明"
+        android:gravity="center"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1、简易随机器的使用"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      在编辑框中输入要随机的对象名称后，按添加按钮将其添加到随机池中。删除按钮可以删除上一个随机对象，清空按钮清空所有随机对象名称。随机按钮显示随机结果。
+        "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2、随机数生成器的使用"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      向右滑动可以返回！帮助也支持！
+      在编辑框中输入要随机的数值最大值后按确定，程序会把随机值域定为 [0,输入的随机数）。右侧为开区间！按随机按钮开始随机！
+        "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3、一些说明"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      虽然做了一些防止输错的处理，但还是希望大家能在输入的时候能规范的输入。
+
+        该程序为兴趣作品。初次试手，总有些不足之处（光是这界面就够辣眼睛的 ˊ _>ˋ ）还望多多见谅。
+
+        意见和建议以及一些BUG反馈，请戳下面的 反馈 或者 报警！
+
+        "/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Call"
+            android:layout_weight="1"
+            android:text="反馈"
+            android:layout_gravity="center"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CallPlic"
+            android:layout_weight="1"
+            android:text="报警"
+            android:layout_gravity="center"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</LinearLayout>
